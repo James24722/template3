@@ -1,0 +1,35 @@
+{
+		height: 60px;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+		padding: 2em 2em;
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		padding: 0em 1.5em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		line-height: 60px;
+		outline: 0;
+		color: #EDCD3 ;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		background: #FFF;
+		color: #f4d803;
+	}
+	
